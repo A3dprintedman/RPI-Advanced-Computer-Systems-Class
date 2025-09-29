@@ -1,0 +1,49 @@
+// l1 cache
+➜ ./mlc -idle_latency -b32 -t10 -c1 -i1
+Intel(R) Memory Latency Checker - v3.11b
+Parameter value dle_latency is not number
+➜ ./mlc --idle_latency -b32 -t10 -c1 -i1
+Intel(R) Memory Latency Checker - v3.11b
+Command line parameters: --idle_latency -b32 -t10 -c1 -i1 
+
+Using buffer size of 0.031MiB
+Each iteration took 2.4 base frequency clocks ( 1.1     ns)
+
+
+// l2 cache
+➜ ./mlc --idle_latency -b512 -t10 -c1 -i81
+Intel(R) Memory Latency Checker - v3.11b
+Minimum value for i is 0 and maximum value is 12
+Number must be in this range!
+
+➜ ./mlc --idle_latency -b512 -t10 -c1 -i1
+Intel(R) Memory Latency Checker - v3.11b
+Command line parameters: --idle_latency -b512 -t10 -c1 -i1
+
+Using buffer size of 0.500MiB
+Each iteration took 10.2 base frequency clocks (        4.9     ns)
+
+
+// l3 cache
+➜ ./mlc --idle_latency -b8m -t10 -c1 -i1
+Intel(R) Memory Latency Checker - v3.11b
+Command line parameters: --idle_latency -b8m -t10 -c1 -i1
+
+Using buffer size of 8.000MiB
+Each iteration took 226.1 base frequency clocks (       107.3   ns)
+
+
+// dram
+➜ Project 2 ⚡                                                                                       10:25:53 
+▶ ./mlc --idle_latency -bm -t10 -c1 -i1 
+ *  History restored 
+
+➜ ./mlc --idle_latency -b1000m -t10 -c1 -i1
+Intel(R) Memory Latency Checker - v3.11b
+Command line parameters: --idle_latency -b1000m -t10 -c1 -i1
+
+Using buffer size of 1000.000MiB
+Each iteration took 244.7 base frequency clocks (       116.8   ns)
+
+➜ Project 2 ⚡                                                                                       10:29:46 
+▶

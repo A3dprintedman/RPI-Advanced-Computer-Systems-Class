@@ -1,0 +1,2 @@
+Intel(R) Memory Latency Checker - v3.11b
+Parameter value seq is not number
