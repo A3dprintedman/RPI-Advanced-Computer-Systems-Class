@@ -34,7 +34,7 @@ run_pattern() {
         for (( i=0; i<runs; i++ )); do
             echo "./mlc --idle_latency -c1 -i1 $flag >> results_pattern=${pattern}_run=${i}.txt"
             ./mlc --idle_latency -c1 -i1 $flag >> results_pattern=${pattern}_run=${i}.txt
-            ./mlc --bandwidth_matrix -l$pattern >> results_bw_pattern=${pattern}_run=${i}.txt
+            ./mlc --bandwidth_matrix >> results_bw_pattern=${pattern}_run=${i}.txt
         done
         echo "Pattern sweep for pattern=$pattern done."
     done

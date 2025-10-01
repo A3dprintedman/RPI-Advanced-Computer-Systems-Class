@@ -1,0 +1,14 @@
+=== TLB Impact Tests ===
+Huge page size: 2097152 bytes
+Size: 32768B, HugePages: No, Times: 15003000ns(546024.13 ops/s), 17004800ns(481746.33 ops/s), 18005600ns(454969.57 ops/s)
+Size: 16777216B, HugePages: Yes, Times: 21005700ns(199674564.52 ops/s), 19011000ns(220625111.78 ops/s), 19006700ns(220675025.12 ops/s)
+Size: 4194304B, HugePages: Yes, Times: 16002600ns(65525352.13 ops/s), 17003400ns(61668607.45 ops/s), 18008900ns(58225432.98 ops/s)
+Size: 2097152B, HugePages: Yes, Times: 16463600ns(31845282.93 ops/s), 16003700ns(32760424.15 ops/s), 16003800ns(32760219.45 ops/s)
+Size: 4096B, HugePages: No, Times: 15581000ns(65721.07 ops/s), 19003400ns(53885.09 ops/s), 18003700ns(56877.20 ops/s)
+Size: 67108864B, HugePages: Yes, Times: 28008800ns(598998029.19 ops/s), 27806800ns(603349396.55 ops/s), 28008400ns(599006583.74 ops/s)
+Size: 8388608B, HugePages: Yes, Times: 17005300ns(123323434.46 ops/s), 18006300ns(116467680.76 ops/s), 17004000ns(123332862.86 ops/s)
+Size: 8192B, HugePages: No, Times: 16002900ns(127976.80 ops/s), 16005100ns(127959.21 ops/s), 16003200ns(127974.41 ops/s)
+Size: 33554432B, HugePages: Yes, Times: 21068700ns(398154988.21 ops/s), 21006800ns(399328217.53 ops/s), 21010500ns(399257894.86 ops/s)
+Size: 262144B, HugePages: No, Times: 17021000ns(3850302.57 ops/s), 17004400ns(3854061.30 ops/s), 18006300ns(3639615.02 ops/s)
+Size: 1048576B, HugePages: No, Times: 20004800ns(13104055.03 ops/s), 17003100ns(15417423.88 ops/s), 17005600ns(15415157.36 ops/s)
+Size: 65536B, HugePages: No, Times: 17004300ns(963520.99 ops/s), 16002500ns(1023840.02 ops/s), 16003200ns(1023795.24 ops/s)
